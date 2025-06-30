@@ -44,7 +44,7 @@ Você pode visualizar como o site deveria funcionar acessando o vídeo demonstra
 
 ## 👥 Equipe
 
-- [Danilo Oliveira](https://github.com/Mandreasn) 
+- [Danilo Oliveira](https://github.com/DanOliveira5) 
 - [Matheus Leonardo](https://github.com/TeuLeonardo)
 - [Raôni Belo](https://github.com/raonibelo) 
 - **Samuel Ruan** 
