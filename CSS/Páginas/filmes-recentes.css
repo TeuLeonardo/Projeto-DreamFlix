@@ -1,0 +1,47 @@
+.filmes-recentes {
+  display: grid;
+  margin: 30px;
+}
+
+.bloco-filme{
+    display: grid;
+}
+
+.bloco-filme h3{
+    color: white;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.nmr-foto{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.filme-img{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    margin-left: 70px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.filme-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+}
+
+.filmes-top{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.info-filme{
+    display: flex;
+    gap: 5px;
+    align-items: end;
+    color: white;
+    margin-left: 70px;
+}

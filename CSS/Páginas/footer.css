@@ -1,0 +1,29 @@
+footer {
+  background-color: rgb(46, 46, 46);
+  color: white;
+  font-weight: bold;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+footer nav ul li span {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+footer nav ul li span:hover {
+  color: #ccc;
+}
+
+footer p {
+  margin-top: 20px;
+}

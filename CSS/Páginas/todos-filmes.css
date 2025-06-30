@@ -1,0 +1,78 @@
+.principal{
+    font-size: 20px;
+    padding-top: 110px;
+    display: grid;
+    justify-items: center;
+}
+
+.principal h1{
+    font-weight: bold;
+    color: white;
+}
+
+.grid .mini{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  margin-top: -3px;
+}
+
+.filmes img{
+    width: 400px;
+    height: 250px;
+    border-radius: 15px; 
+}
+
+.filmes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);  
+    gap: 30px;
+    padding: 10px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.grid img{    
+    padding: -3px;
+    text-align: center;  
+    display: block; 
+}
+
+.nome {
+    margin: 10px 0 5px 13px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+  } 
+  
+  .dados {
+    margin: 0px 0 5px 15px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .ano, .minutos {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .grid p, a{
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }

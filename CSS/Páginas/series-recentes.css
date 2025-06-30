@@ -1,0 +1,58 @@
+.series-recentes {
+  display: grid;
+  margin: 30px;
+}
+
+.top-bloco {
+  display: flex;
+  align-items: end;
+  margin-bottom: 25px;
+  gap: 5px;
+}
+
+.top-bloco img {
+  width: 50px;
+}
+
+.top-bloco h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.bloco-serie {
+  display: grid;
+}
+
+.bloco-serie h3 {
+  color: white;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+.serie-img {
+  width: 350px;
+  height: 200px;
+  position: relative;
+  margin-left: 70px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.serie-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+}
+
+.series-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.info-serie {
+  display: flex;
+  gap: 5px;
+  align-items: end;
+  color: white;
+  margin-left: 70px;
+}
